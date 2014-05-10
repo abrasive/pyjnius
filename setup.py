@@ -116,6 +116,7 @@ setup(name='jnius',
       license='LGPL',
       description='Python library to access Java classes',
       install_requires=install_requires,
+      test_suite='tests',
       ext_package='jnius',
       ext_modules=[
           Extension(
